@@ -1,7 +1,6 @@
 {
     "name": "felipedecampos/laravel-soft-archive",
     "description": "This is a package to extends soft delete to use to archive models.",
-    "type": "composer-plugin",
     "keywords": [
         "soft archive",
         "archived",
