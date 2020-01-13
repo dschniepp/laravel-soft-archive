@@ -104,7 +104,7 @@ trait SoftArchives
 
         $result = $this->save();
 
-        $this->fireModelEvent('archived', false);
+        $this->fireModelEvent('unarchived', false);
 
         return $result;
     }
