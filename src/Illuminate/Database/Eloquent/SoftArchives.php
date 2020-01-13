@@ -125,9 +125,9 @@ trait SoftArchives
      * @param  \Closure|string  $callback
      * @return void
      */
-    public static function unarchiving($callback)
+    public static function unarchived($callback)
     {
-        static::registerModelEvent('unarchiving', $callback);
+        static::registerModelEvent('unarchived', $callback);
     }
 
     /**
